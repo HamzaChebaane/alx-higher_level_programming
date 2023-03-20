@@ -10,4 +10,4 @@ if number >= 0:
     elif number % 10 < 6:
         print(string.format(number, number % 10, "less than 6 and not 0"))
 elif number < 0:
-    print(string.format(number, ((0 - number) % 10) * -1, "less than 6 and not 0"))
+    print(string.format(number, negative, "less than 6 and not 0"))
