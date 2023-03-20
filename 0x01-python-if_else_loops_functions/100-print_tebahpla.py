@@ -4,4 +4,4 @@ for i in range(122, 96, -1):
         o = i - 32
     else:
         o = i
-    print("{}".format(o), end=' ')
+    print("{}".format(chr(o)), end='')
