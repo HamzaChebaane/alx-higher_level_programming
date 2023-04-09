@@ -13,5 +13,8 @@ if __name__ == "__main__":
     if i >= 1:
         i = 0
         for arg in sys.argv:
-            print("{}: {}".format(i, arg))
-            i += 1
+            if i == 0:
+                i += 1
+            else:
+                print("{}: {}".format(i, arg))
+                i += 1
