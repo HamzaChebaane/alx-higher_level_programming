@@ -4,6 +4,6 @@ def no_c(my_string):
     i = 0
     for index in new_string:
         if index == 'c' or index == 'C':
-            new_string[i] = ""
+            del new_string[i]
         i += 1
-    return new_string
+    return "".join(new_string)
